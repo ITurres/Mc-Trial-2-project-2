@@ -12,11 +12,37 @@
         hello please choose your favorite music and more.
       </p>
       <form action="" id="survey-form" class="main__survey-form">
-        <label for="" id="name-label" class="survey-label">
-          <input type="text" id="name" data-name-input />
+        <label for="name" id="name-label" class="survey-label">
+          Name:
+          <input
+            type="text"
+            id="name"
+            placeholder="Your name here"
+            required
+            data-name-input
+          />
         </label>
-        <label for="" id="email-label" class="survey-label">
-          <input type="email" id="email" data-email-input />
+        <label for="email" id="email-label" class="survey-label">
+          Email:
+          <input
+            type="email"
+            id="email"
+            placeholder="Your email here"
+            required
+            data-email-input
+          />
+        </label>
+        <label for="number" id="number-label" class="survey-label">
+          Number:
+          <input
+            type="number"
+            id="number"
+            placeholder="Your number here"
+            min="11"
+            max="11"
+            required
+            data-number-input
+          />
         </label>
       </form>
     </main>
